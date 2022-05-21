@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navbar_menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/home"
         android:title="Home"
         android:icon="@drawable/ic_baseline_home" />
     <item android:id="@+id/activity"
-        android:title="Activity"
-        android:icon="@drawable/ic_baseline_calendar_today" />
+        android:title="Activity Daily"
+        android:icon="@drawable/ic_baseline_calendar" />
     <item android:id="@+id/gallery"
         android:title="Gallery"
         android:icon="@drawable/ic_baseline_image" />
     <item android:id="@+id/favorite"
-        android:title="Favorite"
+        android:title="Favorite Music"
         android:icon="@drawable/ic_baseline_star_rate" />
     <item android:id="@+id/about"
-        android:title="About"
-        android:icon="@drawable/ic_baseline_account_circle" />
-</navbar_menu>
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_profile" />
+</menu>

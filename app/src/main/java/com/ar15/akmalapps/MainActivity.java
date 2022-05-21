@@ -11,20 +11,20 @@ import android.os.Bundle;
  * Tanggal Pengerjaan : 16-05-2022
  */
 
-
 public class MainActivity extends AppCompatActivity {
     VPAdapter vpAdapter;
     ViewPager2 viewPager2;
+
 
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
+        setContentView(R.layout.activity_main);
         viewPager2=findViewById(R.id.viewPager1);
         vpAdapter = new VPAdapter(this);
-        viewPager2.setAdapter(vpAdapter);
 
+        viewPager2.setAdapter(vpAdapter);
     }
 }

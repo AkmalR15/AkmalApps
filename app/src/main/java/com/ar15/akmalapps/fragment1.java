@@ -1,14 +1,23 @@
 package com.ar15.akmalapps;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+import androidx.fragment.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
-public class fragment1 extends AppCompatActivity {
+/** NIM   : 10119230
+ * Nama   : Akmal Rizqulloh
+ * Kelas  : IF-6
+ * Tanggal Pengerjaan : 16-05-2022
+ */
+
+public class fragment1 extends Fragment {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fragment1);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.activity_fragment1, container, false);
     }
 }
