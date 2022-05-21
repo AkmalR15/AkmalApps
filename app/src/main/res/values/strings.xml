@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AkmalApps</string>
+    <string name="akmalapps"><b>AkmalApps </b></string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="selamat">Selamat Datang</string>
+    <string name="lanjut">Lanjutkan</string>
+    <string name="about_me">About Me</string>
+    <string name="text_about_me">Nama saya Akmal RIzqulloh biasa dipanggil akmal atau mal saya belajar di Universitas Komputer Indonesia dengan jurusan Teknik Informatika</string>
+    <string name="hobby">Hobby</string>
+    <string name="makanan_minuman">Makanan dan Minuman Kesukaan</string>
+    <string name="text_makanan_minuman">Daging Rendang dan Juice Alpukat</string>
+    <string name="my_contact">My Contact</string>
+    <string name="no_hp">085056068629</string>
+    <string name="email">csxenomorp@gmail.com</string>
+</resources>
