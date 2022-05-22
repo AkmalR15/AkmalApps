@@ -1,8 +1,14 @@
 package com.ar15.akmalapps;
 
+import android.os.Bundle;
+import android.view.MenuItem;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationBarView;
+
 /** NIM   : 10119230
  * Nama   : Akmal Rizqulloh
  * Kelas  : IF-6
@@ -11,9 +17,47 @@ import android.os.Bundle;
 
 public class navbar extends AppCompatActivity {
 
+    navbar bot_nav;
+    fragment_home activity_fragment_home = new fragment_home();
+    fragment_activity activity_fragment_activity = new fragment_activity();
+    fragment_gallery activity_fragment_gallery = new fragment_gallery();
+    fragment_favorite activity_fragment_favorite = new fragment_favorite();
+    fragment_about activity_fragment_about = new fragment_about();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_navbar);
+        setContentView(R.layout.navbar);
+
+        bot_nav = findViewById(R.id.bot_nav);
+
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, activity_fragment_home).commit();
+
+        bot_nav.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.home:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment_home).commit();
+                        return true;
+                    case R.id.activity:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment_activity).commit();
+                        return true;
+                    case R.id.gallery:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment_gallery).commit();
+                        return true;
+                    case R.id.favorite:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment_favorite).commit();
+                        return true;
+                    case R.id.about:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment_about).commit();
+                        return true;
+                }
+
+                return false;
+            }
+        });
     }
+
+
 }

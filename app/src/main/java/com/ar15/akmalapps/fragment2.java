@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-
 import androidx.fragment.app.Fragment;
 
 /** NIM   : 10119230
@@ -20,14 +19,15 @@ public class fragment2 extends Fragment {
     private Button button;
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+    {
            View view = inflater.inflate(R.layout.activity_fragment2, container, false);
-
         button = view.findViewById(R.id.btn_lanjut);
-        button.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View view) {
+            public void onClick(View view)
+            {
                 startActivity(new Intent(getcontext(), navbar.class));
 
             }

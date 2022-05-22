@@ -5,6 +5,12 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
+/** NIM   : 10119230
+ * Nama   : Akmal Rizqulloh
+ * Kelas  : IF-6
+ * Tanggal Pengerjaan : 16-05-2022
+ */
+
 public class VPAdapter extends FragmentStateAdapter {
 
     private String[] tittle= new String[]{"Home1","Home2"};

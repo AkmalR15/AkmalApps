@@ -11,15 +11,18 @@ import androidx.appcompat.app.AppCompatActivity;
  * Tanggal Pengerjaan : 16-05-2022
  */
 
-public class SplashScreen extends AppCompatActivity {
+public class SplashScreen extends AppCompatActivity
+{
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
-
-        new Handler().postDelayed(new Runnable() {
+        new Handler().postDelayed(new Runnable()
+        {
             @Override
-            public void run() {
+            public void run()
+            {
                 startActivity(new Intent(SplashScreen.this,MainActivity.class));
                 finish();
             }
