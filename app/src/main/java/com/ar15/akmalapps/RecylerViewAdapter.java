@@ -11,6 +11,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+/** NIM   : 10119230
+ * Nama   : Akmal Rizqulloh
+ * Kelas  : IF-6
+ * Tanggal Pengerjaan : 16-05-2022
+ */
 
 public class RecylerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>
 {
@@ -59,7 +64,7 @@ public class RecylerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter
         {
             super(itemView);
             tv_act_name = (TextView) itemView.findViewById(R.id.textview_activity_name);
-            img = (ImageView) itemView.findViewById(R.id.img_activity);
+            img = (ImageView) itemView.findViewById(R.id.layout_view_img);
         }
     }
 }

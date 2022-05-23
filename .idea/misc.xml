@@ -3,13 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/A-15/Data/AndroidStudio/AkmalApps/app/src/main/res/drawable/bg_favorite.xml" value="0.229" />
         <entry key="..\:/A-15/Data/AndroidStudio/AkmalApps/app/src/main/res/drawable/button.xml" value="0.2295" />
         <entry key="..\:/A-15/Data/AndroidStudio/AkmalApps/app/src/main/res/drawable/ic_baseline_account.xml" value="0.2295" />
         <entry key="..\:/A-15/Data/AndroidStudio/AkmalApps/app/src/main/res/drawable/ic_baseline_calendar.xml" value="0.2295" />
         <entry key="..\:/A-15/Data/AndroidStudio/AkmalApps/app/src/main/res/drawable/ic_baseline_email.xml" value="0.2295" />
+        <entry key="..\:/A-15/Data/AndroidStudio/AkmalApps/app/src/main/res/layout/activity_fragment.xml" value="0.21927083333333333" />
         <entry key="..\:/A-15/Data/AndroidStudio/AkmalApps/app/src/main/res/layout/activity_fragment1.xml" value="0.21927083333333333" />
         <entry key="..\:/A-15/Data/AndroidStudio/AkmalApps/app/src/main/res/layout/activity_fragment2.xml" value="0.4" />
+        <entry key="..\:/A-15/Data/AndroidStudio/AkmalApps/app/src/main/res/layout/activity_fragment3.xml" value="0.21927083333333333" />
         <entry key="..\:/A-15/Data/AndroidStudio/AkmalApps/app/src/main/res/layout/activity_fragment_about.xml" value="0.152" />
+        <entry key="..\:/A-15/Data/AndroidStudio/AkmalApps/app/src/main/res/layout/activity_fragment_acitivity.xml" value="0.21927083333333333" />
+        <entry key="..\:/A-15/Data/AndroidStudio/AkmalApps/app/src/main/res/layout/activity_fragment_daily.xml" value="0.21927083333333333" />
+        <entry key="..\:/A-15/Data/AndroidStudio/AkmalApps/app/src/main/res/layout/activity_fragment_favorite.xml" value="0.23068493150684932" />
         <entry key="..\:/A-15/Data/AndroidStudio/AkmalApps/app/src/main/res/layout/activity_fragment_galler.xml" value="0.21927083333333333" />
         <entry key="..\:/A-15/Data/AndroidStudio/AkmalApps/app/src/main/res/layout/activity_fragment_gallery.xml" value="0.21927083333333333" />
         <entry key="..\:/A-15/Data/AndroidStudio/AkmalApps/app/src/main/res/layout/activity_fragment_home.xml" value="0.6" />

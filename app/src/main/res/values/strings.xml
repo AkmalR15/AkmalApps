@@ -13,4 +13,20 @@
     <string name="my_contact">My Contact</string>
     <string name="no_hp">085156068629</string>
     <string name="email">csxenomorp@gmail.com</string>
+    <string name="the_weekend">Less Than Zero</string>
+    <string name="less_than_zero">The Weekend</string>
+    <string name="pov">Ariana Grande</string>
+    <string name="ariana_grande">pov</string>
+    <string name="paradise">Cold play</string>
+    <string name="cold_play">paradise</string>
+    <string name="grenade">Bruno Mars</string>
+    <string name="bruno_mars">Grenade</string>
+    <string name="Lany">13</string>
+    <string name="tiga_belas">Lany</string>
+    <string name="robbers">The 1975</string>
+    <string name="the_sembilan">Robbers</string>
+    <string name="lauv">Never Not</string>
+    <string name="never_not">Lauv</string>
+    <string name="daily_act">Daily Activity</string>
+
 </resources>

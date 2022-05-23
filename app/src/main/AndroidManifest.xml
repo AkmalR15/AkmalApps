@@ -14,6 +14,12 @@
         android:theme="@style/Theme.AkmalApps"
         tools:targetApi="31" >
         <activity
+            android:name=".fragment_activity_daily"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_favorite"
+            android:exported="false" />
+        <activity
             android:name=".fragment_gallery"
             android:exported="false" />
         <activity
