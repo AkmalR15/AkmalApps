@@ -26,17 +26,14 @@ public class fragment_activity_daily extends Fragment {
     private RecyclerView myrecyclerview;
     private List<activity_page> list_atc;
 
-    public page_activityFragment() {
+    public fragment_activity_daily() {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.activity_fragment_daily, container, false);
-
         myrecyclerview = (RecyclerView) v.findViewById(R.id.activity_recyclerview);
-        RecyclerViewAdapter recyclerViewAdapter = new RecyclerViewAdapter(getContext(),list_atc);
+        RecylerViewAdapter recyclerViewAdapter = new RecylerViewAdapter(getContext(),list_atc);
         myrecyclerview.setLayoutManager(new LinearLayoutManager(getActivity()));
         myrecyclerview.setAdapter(recyclerViewAdapter);
 

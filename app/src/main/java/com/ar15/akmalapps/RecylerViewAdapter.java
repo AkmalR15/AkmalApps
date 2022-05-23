@@ -17,12 +17,12 @@ import java.util.List;
  * Tanggal Pengerjaan : 20-05-2022
  */
 
-public class RecylerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>
+public class RecylerViewAdapter extends RecyclerView.Adapter<RecylerViewAdapter.MyViewHolder>
 {
     Context mContext;
     List<activity_page> mData;
 
-    public RecyclerViewAdapter (Context mContext, List<activity_page> mData)
+    public RecylerViewAdapter (Context mContext, List<activity_page> mData)
     {
         this.mContext = mContext;
         this.mData = mData;

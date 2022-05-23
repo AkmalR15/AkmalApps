@@ -28,7 +28,7 @@ public class fragment2 extends Fragment {
             @Override
             public void onClick(View view)
             {
-                startActivity(new Intent(getcontext(), navbar.class));
+                startActivity(new Intent(getContext(), navbar.class));
 
             }
         });

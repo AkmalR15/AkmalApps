@@ -28,7 +28,6 @@ public class navbar extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navbar);
-
         nav = findViewById(R.id.bot_nav);
 
         getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment_home).commit();
@@ -56,7 +55,8 @@ public class navbar extends AppCompatActivity {
 
                 return false;
             }
-        });
+        }
+        );
     }
 
 
