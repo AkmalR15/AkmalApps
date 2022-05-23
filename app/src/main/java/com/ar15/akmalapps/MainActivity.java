@@ -8,7 +8,7 @@ import android.os.Bundle;
 /** NIM   : 10119230
  * Nama   : Akmal Rizqulloh
  * Kelas  : IF-6
- * Tanggal Pengerjaan : 16-05-2022
+ * Tanggal Pengerjaan : 20-05-2022
  */
 
 public class MainActivity extends AppCompatActivity {

@@ -12,7 +12,7 @@ import com.google.android.material.navigation.NavigationBarView;
 /** NIM   : 10119230
  * Nama   : Akmal Rizqulloh
  * Kelas  : IF-6
- * Tanggal Pengerjaan : 16-05-2022
+ * Tanggal Pengerjaan : 20-05-2022
  */
 
 public class navbar extends AppCompatActivity {
