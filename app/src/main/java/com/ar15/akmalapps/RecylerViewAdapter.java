@@ -64,7 +64,7 @@ public class RecylerViewAdapter extends RecyclerView.Adapter<RecylerViewAdapter.
         {
             super(itemView);
             tv_act_name = (TextView) itemView.findViewById(R.id.textview_activity_name);
-            img = (ImageView) itemView.findViewById(R.id.layout_view_img);
+
         }
     }
 }

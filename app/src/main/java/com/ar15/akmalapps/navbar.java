@@ -17,22 +17,19 @@ import com.google.android.material.navigation.NavigationBarView;
 
 public class navbar extends AppCompatActivity {
 
-    navbar nav;
+    BottomNavigationView bot_nav;
     fragment_home fragment_home = new fragment_home();
     fragment_activity_daily fragment_activity_daily = new fragment_activity_daily();
     fragment_gallery fragment_gallery = new fragment_gallery();
     fragment_favorite fragment_favorite = new fragment_favorite();
     fragment_about fragment_about = new fragment_about();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navbar);
-        nav = findViewById(R.id.bot_nav);
-
+        bot_nav = findViewById(R.id.bot_nav);
         getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment_home).commit();
-
-        nav.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
+        bot_nav.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem item) {
                 switch (item.getItemId()) {
